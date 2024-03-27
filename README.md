@@ -99,13 +99,14 @@ This project is licensed under the [MIT License](LICENSE). You are free to use, 
 ![OTP VERIFIED](assets/verify-otp.png)
 
 ## DATABASE
+![DATABASE](assets/database.png)
 
 ## LOGIN PAGE
 ![LOGIN PAGE](assets/login.png)
 
 ## LOGIN SUCCESSFUL
 ### WELCOME TO THE PIZZA SITE
-![PIZZA SITE](assets/pizza1.png)
+![PIZZA SITE](assets/pizza.png)
 ![PIZZA SITE](assets/pizza2.png)
 ![PIZZA SITE](assets/pizza3.png)
 ![PIZZA SITE](assets/pizza4.png)

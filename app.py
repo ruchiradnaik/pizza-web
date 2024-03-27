@@ -17,15 +17,19 @@ app.secret_key = 'supersecretkey'  # Secret key for session
 app.config['MAIL_SERVER'] = 'smtp.gmail.com'  # Update with your SMTP server
 app.config['MAIL_PORT'] = 587  # Update with your SMTP port
 app.config['MAIL_USE_TLS'] = True
-app.config['MAIL_USERNAME'] = 'adnaikruchir25@gmail.com'  # Update with your email
-app.config['MAIL_PASSWORD'] = 'sxve zeil ayjj vsci'  # Update with your email password
-app.config['MAIL_DEFAULT_SENDER'] = 'adnaikruchir25@gmail.com'  # Update with your email
+app.config['MAIL_USERNAME'] = ''  # Update with your email
+app.config['MAIL_PASSWORD'] = ''  # Update with your email password
+app.config['MAIL_DEFAULT_SENDER'] = ''  # Update with your email
+
+#Update the mail_username and mail_default_sender with your so that the otps will be sent through your emails
+#For the mail password you can add the original mail password but for safety and security of your email data
 
 # MySQL Configuration
-app.config['MYSQL_HOST'] = '127.0.0.1'
-app.config['MYSQL_USER'] = 'root'
-app.config['MYSQL_PASSWORD'] = 'adnaik@ruchir$1176'
-app.config['MYSQL_DB'] = 'user_database'
+#enter your host name, user name, password and your database name
+app.config['MYSQL_HOST'] = '' 
+app.config['MYSQL_USER'] = ''
+app.config['MYSQL_PASSWORD'] = ''
+app.config['MYSQL_DB'] = ''
 
 mysql = MySQL(app)
 
